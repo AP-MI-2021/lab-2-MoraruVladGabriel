@@ -70,10 +70,13 @@ if __name__ == "__main__":
         elif optiune=="2":
             n=int(input("Numarul de elemnte din lista: "))
             numbers=[]
-            for i in range(n):
-                number=int(input("Dati element: "))
-                numbers.append(number)
-            print(get_cmmmc(numbers))
+            if n<2:
+                print("Date incorecte!")
+            else:
+                for i in range(n):
+                    number=int(input("Dati element: "))
+                    numbers.append(number)
+                print(get_cmmmc(numbers))
         elif optiune=="X":
             break
         else:
