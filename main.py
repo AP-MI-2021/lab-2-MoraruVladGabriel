@@ -31,7 +31,7 @@ def test_get_temp():
 
 def get_cmmmc(numbers):
     '''
-    Determina cmmmc-ul tuturor elementelor dontr-o lista.
+    Determina cmmmc-ul tuturor elementelor dintr-o lista.
     :param numbers: int list
     :return:int.
     '''
