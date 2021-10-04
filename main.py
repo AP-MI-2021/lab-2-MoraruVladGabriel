@@ -49,6 +49,9 @@ def get_cmmmc(numbers):
     return int(cmmmc)
 
 def test_get_cmmc():
+    '''
+        Verifica daca functia get_cmmmc() returneaza date corecte.
+    '''
     assert get_cmmmc([6,5,10]) == 30
     assert get_cmmmc([20,12,59]) == 3540
     assert get_cmmmc([11,5,38,15]) == 6270
