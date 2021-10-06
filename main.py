@@ -91,11 +91,14 @@ def get_largest_prime_below(n):
 def test_get_largest_prime_below():
     assert get_largest_prime_below(6)==5
     assert get_largest_prime_below(5)==3
-    assert get_largest_prime_below(32)==29
+    assert get_largest_prime_below(31)==29
     assert get_largest_prime_below(108)==107
 
 
 if __name__ == "__main__":
+    test_get_largest_prime_below()
+    test_get_cmmc()
+    test_get_temp()
     while True:
         print("1.Transforma o temperatura data dintr-o scara data intr-o alta scara data. ")
         print("2.Calculează CMMMC al n numere date.")
@@ -126,4 +129,3 @@ if __name__ == "__main__":
         else:
             print("Optiune gresita")
 
-    main()
